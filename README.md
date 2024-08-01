@@ -1,2 +1,2 @@
-#Personal Website Static using Boootstrap
-Hi
+# Personal Website Static using Boootstrap
+
