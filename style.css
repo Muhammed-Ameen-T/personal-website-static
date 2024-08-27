@@ -1,15 +1,18 @@
 nav a:hover{
-    background-color: rgba(0, 0, 0, 0.318);
+    background-color: rgba(0, 0, 0, 0.159);
+    border-radius: 10px;
 }
-.cv-btn{
+.cv-btn {
     background-color: rgb(255, 208, 0);
+    color: black;
     margin-right: 3rem;
-    width: 11rem;
+    width: 13rem;
     height: 3rem;
     font-weight: 600;
     font-size: large;
     border-radius: 20px;
     border: 1px solid black;
+    
 }
 .cv-btn:hover{
     background-color: rgb(255, 255, 255);
@@ -19,7 +22,7 @@ nav a:hover{
 .hire-btn{
     background-color: rgb(255, 208, 0);
     margin-right: 3rem;
-    width: 11rem;
+    width: 8rem;
     height: 3rem;
     font-weight: 600;
     font-size: large;
@@ -30,4 +33,7 @@ nav a:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(255, 174, 0);
     border: 2px solid rgb(255, 174, 0);
+}
+.skill-txt:hover{
+    color: rgb(255, 204, 0);
 }
