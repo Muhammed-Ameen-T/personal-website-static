@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 nav a:hover{
     background-color: rgba(0, 0, 0, 0.159);
     border-radius: 10px;
@@ -36,4 +40,16 @@ nav a:hover{
 }
 .skill-txt:hover{
     color: rgb(255, 204, 0);
+}
+.card:hover{
+    background-color: rgba(255, 191, 0, 0.281);
+}
+.main-img:hover{
+    filter: grayscale(1);
+}
+.pr-img{
+    filter: grayscale(1);
+}
+.pr-img:hover{
+    filter: grayscale(0);
 }
