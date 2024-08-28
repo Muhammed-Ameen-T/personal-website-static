@@ -1,2 +1,2 @@
-# Personal Website Static using Boootstrap
+# Personal Website Resposive using Boootstrap
 
