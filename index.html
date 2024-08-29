@@ -1,427 +1,666 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muhammed Ameen</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/dp-removebg-preview.png" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
-<body>
-    <header class="bg-warning" style="position: fixed;width: 100%;z-index: 1;">
-        <div class="row text-black">
-            
-            <div class="col-md-6 col-3 my-auto  mr-auto">
-                <nav class="navbar navbar-expand-lg navbar-light fw-bold">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ">
-                            <li style="width: 7rem;" class="nav-item active">
-                                <a class="nav-link" href="#home-section"><span style="font-weight: bold;" class="h5"><i class="fa-solid fa-house"></i>&nbsp;Home</span></a>
-                            </li>
-                            <li style="width: 6rem;" class="nav-item">
-                                <a class="nav-link" href="#service-section"><span class=" h5"><i class="fa-solid fa-toolbox"></i>&nbsp;Skills</span></a>
-                            </li>
-                            <li style="width: 8rem;" class="nav-item">
-                                <a class="nav-link" href="#experience-section"><span class=" h5"><i class="fa-solid fa-folder"></i>&nbsp;Projects</span></a>
-                            </li>
-                            <li style="width: 8rem;" class="nav-item">
-                                <a class="nav-link" href="#contact-section"><span class=" h5"><i class="fa-solid fa-comments"></i>&nbsp;Contact</span></a>
-                            </li>
-                            <li style="width: 8rem;" class="nav-item">
-                              <a class="nav-link" href="#gallery"><span class=" h5"><i class="fa-solid fa-image"></i>&nbsp;Gallery</span></a>
-                            </li>
-                            <li style="width: 8rem;" class="nav-item">
-                                <a class="nav-link" href="#footer"><span class=" h5"><i class="fa-solid fa-id-card"></i>&nbsp;Footer</span></a>
-                            </li>
-                        </ul>                  
-                    </div>
-                </nav>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="assets/dp-removebg-preview.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAV-BAR -->
+    <header class="bg-warning" style="position: fixed; width: 100%; z-index: 1">
+      <div class="row text-black">
+        <div class="col-md-6 col-3 my-auto mr-auto">
+          <nav class="navbar navbar-expand-lg navbar-light fw-bold">
+            <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li style="width: 7rem" class="nav-item active">
+                  <a class="nav-link" href="#home-section"
+                    ><span style="font-weight: bold" class="h5"
+                      ><i class="fa-solid fa-house"></i>&nbsp;Home</span
+                    ></a
+                  >
+                </li>
+                <li style="width: 6rem" class="nav-item">
+                  <a class="nav-link" href="#service-section"
+                    ><span class="h5"
+                      ><i class="fa-solid fa-toolbox"></i>&nbsp;Skills</span
+                    ></a
+                  >
+                </li>
+                <li style="width: 8rem" class="nav-item">
+                  <a class="nav-link" href="#experience-section"
+                    ><span class="h5"
+                      ><i class="fa-solid fa-folder"></i>&nbsp;Projects</span
+                    ></a
+                  >
+                </li>
+                <li style="width: 8rem" class="nav-item">
+                  <a class="nav-link" href="#contact-section"
+                    ><span class="h5"
+                      ><i class="fa-solid fa-comments"></i>&nbsp;Contact</span
+                    ></a
+                  >
+                </li>
+                <li style="width: 8rem" class="nav-item">
+                  <a class="nav-link" href="#gallery"
+                    ><span class="h5"
+                      ><i class="fa-solid fa-image"></i>&nbsp;Gallery</span
+                    ></a
+                  >
+                </li>
+                <li style="width: 8rem" class="nav-item">
+                  <a class="nav-link" href="#footer"
+                    ><span class="h5"
+                      ><i class="fa-solid fa-id-card"></i>&nbsp;Footer</span
+                    ></a
+                  >
+                </li>
+              </ul>
             </div>
+          </nav>
         </div>
+      </div>
     </header>
-    <section id="home-section" style="padding-top: 6em;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 pb-3">
-                    <img style="width: 25rem;" class="main-img img-fluid " src="assets/dp-removebg-preview.png" alt="Responsive image">
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <h1>
-                        Muhammed Ameen T
-                    </h1>
-                    <h2>Fullstack Developer</h2>
-                    <h4 class="pt-4">Web Designer | Web Development | Graphic Designer </h4>
-                    <p>"If you dont risk anything you risk even more in your life.."</p>
-                    <footer>-Ameen</footer>
-                    <div class="d-flex">
-                        <button class="cv-btn mt-5 mb-5"><a class="" href="https://drive.google.com/file/d/1iJ9gHgxTvo7mOcQokDMn9g1X048Y7o0s/view?usp=drive_link">Download CV&nbsp;&nbsp;<i class="fa-solid fa-download"></i></a></button>
-                        <button class="hire-btn  mt-5 mb-5">Hire Me</button>
-                    </div>               
-                    <a class="home-socials" href="https://www.facebook.com/muhammed.ameen.thevangal/"><i class="fa-brands fa-square-facebook" style="color: #000000;font-size: 3rem;padding-right: 2rem;margin-left: 1.5rem;"></i></a>
-                    <a class="home-socials" href="https://instagram.com/ameen.t___"><i class="fa-brands fa-square-instagram" style="color: #000000;font-size: 3rem;padding-right: 1.5rem;"></i></a>
-                    <a class="home-socials" href="https://www.linkedin.com/in/muhammed-ameen-t/"><i class="fa-brands fa-linkedin" style="color: #000000;font-size: 3rem;padding-right: 1.5rem;"></i></a>
-                    <a class="home-socials" href="https://github.com/Muhammed-Ameen-T"><i class="fa-brands fa-square-github" style="color: #000000;font-size: 3rem;padding-right: 1.5rem;"></i></a>
-                    <a class="home-socials" href="https://x.com/muhammed_ameent"><i class="fa-brands fa-square-x-twitter mb-5" style="color: #000000;font-size: 3rem;padding-right: 1.5rem;"></i></a>
-                </div>
+    <!-- HOME-SECTION -->
+    <section id="home-section" style="padding-top: 6em">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 pb-3">
+            <img
+              style="width: 25rem"
+              class="main-img img-fluid"
+              src="assets/dp-removebg-preview.png"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h1>Muhammed Ameen T</h1>
+            <h2>Fullstack Developer</h2>
+            <h4 class="pt-4">
+              Web Designer | Web Development | Graphic Designer
+            </h4>
+            <p>"If you dont risk anything you risk even more in your life.."</p>
+            <footer>-Ameen</footer>
+            <div class="d-flex">
+              <button class="cv-btn mt-5 mb-5">
+                <a
+                  class=""
+                  href="https://drive.google.com/file/d/1iJ9gHgxTvo7mOcQokDMn9g1X048Y7o0s/view?usp=drive_link"
+                  >Download CV&nbsp;&nbsp;<i class="fa-solid fa-download"></i
+                ></a>
+              </button>
+              <button class="hire-btn mt-5 mb-5">Hire Me</button>
             </div>
+            <a
+              class="home-socials"
+              href="https://www.facebook.com/muhammed.ameen.thevangal/"
+              ><i
+                class="fa-brands fa-square-facebook"
+                style="
+                  color: #000000;
+                  font-size: 3rem;
+                  padding-right: 2rem;
+                  margin-left: 1.5rem;
+                "
+              ></i
+            ></a>
+            <a class="home-socials" href="https://instagram.com/ameen.t___"
+              ><i
+                class="fa-brands fa-square-instagram"
+                style="color: #000000; font-size: 3rem; padding-right: 1.5rem"
+              ></i
+            ></a>
+            <a
+              class="home-socials"
+              href="https://www.linkedin.com/in/muhammed-ameen-t/"
+              ><i
+                class="fa-brands fa-linkedin"
+                style="color: #000000; font-size: 3rem; padding-right: 1.5rem"
+              ></i
+            ></a>
+            <a class="home-socials" href="https://github.com/Muhammed-Ameen-T"
+              ><i
+                class="fa-brands fa-square-github"
+                style="color: #000000; font-size: 3rem; padding-right: 1.5rem"
+              ></i
+            ></a>
+            <a class="home-socials" href="https://x.com/muhammed_ameent"
+              ><i
+                class="fa-brands fa-square-x-twitter mb-5"
+                style="color: #000000; font-size: 3rem; padding-right: 1.5rem"
+              ></i
+            ></a>
+          </div>
         </div>
+      </div>
     </section>
+    <!-- SERVICE-SECTION -->
     <section class="bg-light p-5" id="service-section">
-        <div class="container">
-            <h1 class="skill-txt text-center"><i class="fa-solid fa-toolbox"></i>&nbsp;&nbsp;Skills</h1>
-            <div class="row pt-2">
-                <div class="col-md-4">
-                    <div class="card text-center pt-3">
-                        <i class="fa-brands fa-html5 display-1 text-warning"></i>
-                        <div class="card-body">
-                            <h4>HTML 5</h4>
-                            <p class="card-text">Designing Webpages Using HtML Newer Version of HTML 5, HTML Profossional with 2yr Experience.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card text-center pt-3">
-                        <i class="fa-brands fa-figma display-1 text-warning"></i>
-                        <div class="card-body">
-                            <h4>Figma</h4>
-                            <p class="card-text">Using Figma to create, share, and test designs for websites, mobile apps, and Experiences.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card text-center pt-3">
-                        <i class="fa-brands fa-css3-alt display-1 text-warning"></i>
-                        <div class="card-body">
-                            <h4>CSS 3</h4>
-                            <p class="card-text">Using CSS For Designing HtML Elements in a webpages Using newer version CSS 3, 1yr Experience.</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="skill-txt text-center">
+          <i class="fa-solid fa-toolbox"></i>&nbsp;&nbsp;Skills
+        </h1>
+        <div class="row pt-2">
+          <div class="col-md-4">
+            <div class="card text-center pt-3">
+              <i class="fa-brands fa-html5 display-1 text-warning"></i>
+              <div class="card-body">
+                <h4>HTML 5</h4>
+                <p class="card-text">
+                  Designing Webpages Using HtML Newer Version of HTML 5, HTML
+                  Profossional with 2yr Experience.
+                </p>
+              </div>
             </div>
-            <div class="row pt-3">
-                <div class="col-md-4">
-                    <div class="card text-center pt-3">
-                        <i class="fa-solid fa-pen text-warning display-1"></i>
-                        <div class="card-body">
-                            <h4>Graphic Designing</h4>
-                            <p class="card-text">I know Adobe software like Abobe Phototshop, Illustrator, Indisign, Coreldraw, Priemierpro.</p>
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card text-center pt-3">
-                        <i class="fa-brands fa-bootstrap display-1 text-warning"></i>
-                        <div class="card-body">
-                            <h4>Bootstrap</h4>
-                            <p class="card-text">I am Using Bootstrap Latest version of Bootstrap 5 For Creating Responsive Web Designs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card text-center pt-3">
-                        <i class="fa-brands fa-git-alt display-1 text-warning"></i>
-                        <div class="card-body">
-                            <h4>Git</h4>
-                            <p class="card-text">I am Using Git for Project Pull and Puch. It used for website Hosting also. stores Repository. </p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center pt-3">
+              <i class="fa-brands fa-figma display-1 text-warning"></i>
+              <div class="card-body">
+                <h4>Figma</h4>
+                <p class="card-text">
+                  Using Figma to create, share, and test designs for websites,
+                  mobile apps, and Experiences.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center pt-3">
+              <i class="fa-brands fa-css3-alt display-1 text-warning"></i>
+              <div class="card-body">
+                <h4>CSS 3</h4>
+                <p class="card-text">
+                  Using CSS For Designing HtML Elements in a webpages Using
+                  newer version CSS 3, 1yr Experience.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="row pt-3">
+          <div class="col-md-4">
+            <div class="card text-center pt-3">
+              <i class="fa-solid fa-pen text-warning display-1"></i>
+              <div class="card-body">
+                <h4>Graphic Designing</h4>
+                <p class="card-text">
+                  I know Adobe software like Abobe Phototshop, Illustrator,
+                  Indisign, Coreldraw, Priemierpro.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center pt-3">
+              <i class="fa-brands fa-bootstrap display-1 text-warning"></i>
+              <div class="card-body">
+                <h4>Bootstrap</h4>
+                <p class="card-text">
+                  I am Using Bootstrap Latest version of Bootstrap 5 For
+                  Creating Responsive Web Designs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center pt-3">
+              <i class="fa-brands fa-git-alt display-1 text-warning"></i>
+              <div class="card-body">
+                <h4>Git</h4>
+                <p class="card-text">
+                  I am Using Git for Project Pull and Puch. It used for website
+                  Hosting also. stores Repository.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Project-Section -->
     <section class="bg-white p-5" id="experience-section">
-        <div class="container">
-            <h1 class="skill-txt text-center"><i class="fa-solid fa-folder"></i>&nbsp;&nbsp;Projects</h1>
-            <br>
-            <div class="row">
-                <div class="col-md-4 mt-2">
-                    <a style="text-decoration: none;color: black;" href="https://www.microsoft.com/">
-                        <div class="card text-center">
-                            <img class="pr-img" style="height: 230px;" src="assets/flipkart.png" alt="">
-                            <div class="card-body">
-                                <h4>Flipkart Clone</h4>
-                                <p class="card-text">Flipkart Static Website Clone Design.</p>
-                            </div>
-                        </div>
-                    </a>
+      <div class="container">
+        <h1 class="skill-txt text-center">
+          <i class="fa-solid fa-folder"></i>&nbsp;&nbsp;Projects
+        </h1>
+        <br />
+        <div class="row">
+          <div class="col-md-4 mt-2">
+            <a
+              style="text-decoration: none; color: black"
+              href="https://www.microsoft.com/"
+            >
+              <div class="card text-center">
+                <img
+                  class="pr-img"
+                  style="height: 230px"
+                  src="assets/flipkart.png"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h4>Flipkart Clone</h4>
+                  <p class="card-text">Flipkart Static Website Clone Design.</p>
                 </div>
-                <div class="col-md-4 mt-2">
-                    <a style="text-decoration: none;color: black;" href="https://www.microsoft.com/">
-                        <div class="card text-center">
-                            <img class="pr-img" style="height: 230px;" src="assets/pearl.png" alt="">
-                            <div class="card-body">
-                                <h4>Pearl Grill</h4>
-                                <p class="card-text">Pearl grill E-commerce Website Static.</p>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mt-2">
+            <a
+              style="text-decoration: none; color: black"
+              href="https://www.microsoft.com/"
+            >
+              <div class="card text-center">
+                <img
+                  class="pr-img"
+                  style="height: 230px"
+                  src="assets/pearl.png"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h4>Pearl Grill</h4>
+                  <p class="card-text">
+                    Pearl grill E-commerce Website Static.
+                  </p>
                 </div>
-                <div class="col-md-4 mt-2">
-                    <a style="text-decoration: none;color: black;" href="https://www.microsoft.com/">
-                        <div class="card text-center">
-                            <img class="pr-img" style="height: 230px;" src="assets/nb.png" alt="">
-                            <div class="card-body">
-                                <h4>New Balance Clone</h4>
-                                <p class="card-text">New balance static clone web pages.</p>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mt-2">
+            <a
+              style="text-decoration: none; color: black"
+              href="https://www.microsoft.com/"
+            >
+              <div class="card text-center">
+                <img
+                  class="pr-img"
+                  style="height: 230px"
+                  src="assets/nb.png"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h4>New Balance Clone</h4>
+                  <p class="card-text">New balance static clone web pages.</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mt-2">
-                    <a style="text-decoration: none;color: black;" href="https://www.microsoft.com/">
-                        <div class="card text-center">
-                            <img class="pr-img" style="height: 230px;" src="assets/screen1.jpg" alt="">
-                            <div class="card-body">
-                                <h4>Nice Bakes</h4>
-                                <p class="card-text">Static website design E-Commerce site. </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <a style="text-decoration: none;color: black;" href="https://www.microsoft.com/">
-                        <div class="card text-center">
-                            <img class="pr-img" style="height: 230px;" src="assets/swiggy.png" alt="">
-                            <div class="card-body">
-                                <h4>Swiggy Clone</h4>
-                                <p class="card-text">Clone static Wep page Clone of Swiggy.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <a style="text-decoration: none;color: black;" href="https://www.microsoft.com/">
-                        <div class="card text-center">
-                            <img class="pr-img" style="height: 230px;" src="assets/amazon.jpg" alt="">
-                            <div class="card-body">
-                                <h4>Amazon Clone</h4>
-                                <p class="card-text">Amazon Static Website Clone Design.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+              </div>
+            </a>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-4 mt-2">
+            <a
+              style="text-decoration: none; color: black"
+              href="https://www.microsoft.com/"
+            >
+              <div class="card text-center">
+                <img
+                  class="pr-img"
+                  style="height: 230px"
+                  src="assets/screen1.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h4>Nice Bakes</h4>
+                  <p class="card-text">
+                    Static website design E-Commerce site.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mt-2">
+            <a
+              style="text-decoration: none; color: black"
+              href="https://www.microsoft.com/"
+            >
+              <div class="card text-center">
+                <img
+                  class="pr-img"
+                  style="height: 230px"
+                  src="assets/swiggy.png"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h4>Swiggy Clone</h4>
+                  <p class="card-text">
+                    Clone static Wep page Clone of Swiggy.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mt-2">
+            <a
+              style="text-decoration: none; color: black"
+              href="https://www.microsoft.com/"
+            >
+              <div class="card text-center">
+                <img
+                  class="pr-img"
+                  style="height: 230px"
+                  src="assets/amazon.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h4>Amazon Clone</h4>
+                  <p class="card-text">Amazon Static Website Clone Design.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- Gallery --><h1 id="gallery" class="skill-txt text-center mb-5"><i class="fa-solid fa-image"></i>&nbsp;&nbsp;Gallery</h1>
-    <div  class="row">
-      
-        <div class="col">
-            <img style="filter: grayscale(1);" src="assets/WhatsApp Image 2024-08-27 at 20.08.45_84774af6.jpg" class="img-fluid" alt="...">
-        </div>
-        <div class="col position-absolute">
-            <h3 style="text-align: center; color: rgb(235, 230, 230);margin-top: 3rem;">Iam from Calicut</h3>
-            <h4 style="text-align: center; color: rgb(233, 230, 230);">"If you want to buy something without looking at the price tag <br>You want to work without looking at the Clock."</h4>
-            <h4 style="text-align: center; color: rgb(233, 230, 230);">-Ameen</h4>
-        </div>
+    <!-- Gallery -->
+    <h1 id="gallery" class="skill-txt text-center mb-5">
+      <i class="fa-solid fa-image"></i>&nbsp;&nbsp;Gallery
+    </h1>
+    <div class="row">
+      <div class="col">
+        <img
+          style="filter: grayscale(1)"
+          src="assets/WhatsApp Image 2024-08-27 at 20.08.45_84774af6.jpg"
+          class="img-fluid"
+          alt="..."
+        />
+      </div>
+      <div class="col position-absolute">
+        <h3
+          style="
+            text-align: center;
+            color: rgb(235, 230, 230);
+            margin-top: 3rem;
+          "
+        >
+          Iam from Calicut
+        </h3>
+        <h4 style="text-align: center; color: rgb(233, 230, 230)">
+          "If you want to buy something without looking at the price tag
+          <br />You want to work without looking at the Clock."
+        </h4>
+        <h4 style="text-align: center; color: rgb(233, 230, 230)">-Ameen</h4>
+      </div>
     </div>
     <!-- Gallery -->
     <!-- Contact-form -->
     <section class="bg-light p-5" id="contact-section">
-      <h1 class="skill-txt text-center mb-5"><i class="fa-solid fa-comments"></i>&nbsp;&nbsp;Contact Form</h1>
+      <h1 class="skill-txt text-center mb-5">
+        <i class="fa-solid fa-comments"></i>&nbsp;&nbsp;Contact Form
+      </h1>
       <form action="https://api.web3forms.com/submit" method="POST" id="form">
         <div class="row">
-            <input type="hidden" name="access_key" value="69adf365-d3fe-4230-a332-d19b982271ec">
-            <input style="width: 30rem;height: 3rem;" type="text" name="name"  id="name" placeholder="Your Name" class="col input-tag mb-2">
-            <input type="email" name="email"  id="email" placeholder="Your Email Address" class="col input-tag mb-2 ">
-            <textarea name="message" id="message" style="width: 100%; margin-top: 2px;min-height: 220px; font-size: 20px;
-            padding: 20px;" placeholder="Message...."></textarea>
-            <input onclick="myFunction()" style="background-color: #08699d;color: aliceblue;font-weight: bold;margin-top: 1rem;" type="submit" value="Submit" id="submit-btn">
+          <input
+            type="hidden"
+            name="access_key"
+            value="69adf365-d3fe-4230-a332-d19b982271ec"
+          />
+          <input
+            style="width: 30rem; height: 3rem"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            class="col input-tag mb-2"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email Address"
+            class="col input-tag mb-2" 
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            style="
+              width: 100%;
+              margin-top: 2px;
+              min-height: 220px;
+              font-size: 20px;
+              padding: 20px;
+            "
+            placeholder="Message...."
+            required
+          ></textarea>
+          <input
+            onclick="myFunction()"
+            style="
+              background-color: #08699d;
+              color: aliceblue;
+              font-weight: bold;
+              margin-top: 1rem;
+            "
+            type="submit"
+            value="Submit"
+            id="submit-btn"
+          />
         </div>
-        <p id="result" ></p>
-    </form>
+        <p id="result"></p>
+      </form>
     </section>
     <!-- Contact-form -->
-    
-
 
     <!-- Top-Footer -->
-     <!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
-      </div>
-    </section>
-    <!-- Section: Social media -->
-  
-    <!-- Section: Links  -->
-    <section id="footer" class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Ameen T
-            </h6>
-            <p>
-              Hlo Everyone, <br>Welcome to my Blog
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Products
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">HTML 5</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">CSS 3</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Bootstrap 5</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Phototshop</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Services</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Settings</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Projects</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3"></i> Calicut, Kerala, 673601.</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              mhdameen2006@gmail.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> +91 9946276759</p>
-            <p><i class="fas fa-print me-3"></i> +91 8547282915</p>
-          </div>
-          <!-- Grid column -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
         </div>
-        <!-- Grid row -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section id="footer" class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Ameen T
+              </h6>
+              <p>Hlo Everyone, <br />Welcome to my Blog</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">HTML 5</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">CSS 3</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Bootstrap 5</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Phototshop</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Services</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Projects</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> Calicut, Kerala, 673601.</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                mhdameen2006@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> +91 9946276759</p>
+              <p><i class="fas fa-print me-3"></i> +91 8547282915</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+          >Muhammed Ameen t</a
+        >
       </div>
-    </section>
-    <!-- Section: Links  -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2024 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Muhammed Ameen t</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-   
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <!-- FOOTER -->
-                 <footer class="bg-body-tertiary text-center">
-                    <!-- Grid container -->
-                    <div class="container p-4 pb-0">
-                      <!-- Section: Social media -->
-                      <section class="mb-4">
-                        <!-- Facebook -->
-                        <a
-                        data-mdb-ripple-init
-                          class="btn text-white btn-floating m-1"
-                          style="background-color: #3b5998;"
-                          href="https://www.facebook.com/muhammed.ameen.thevangal/"
-                          role="button"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                  
-                        <!-- Twitter -->
-                        <a
-                          data-mdb-ripple-init
-                          class="btn text-white btn-floating m-1"
-                          style="background-color: #55acee;"
-                          href="https://x.com/muhammed_ameent"
-                          role="button"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                  
-                        <!-- Google -->
-                        <a
-                          data-mdb-ripple-init
-                          class="btn text-white btn-floating m-1"
-                          style="background-color: #dd4b39;"
-                          href="#!"
-                          role="button"
-                          ><i class="fab fa-google"></i
-                        ></a>
-                  
-                        <!-- Instagram -->
-                        <a
-                          data-mdb-ripple-init
-                          class="btn text-white btn-floating m-1"
-                          style="background-color: #ac2bac;"
-                          href="https://instagram.com/ameen.t___"
-                          role="button"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                  
-                        <!-- Linkedin -->
-                        <a
-                          data-mdb-ripple-init
-                          class="btn text-white btn-floating m-1"
-                          style="background-color: #0082ca;"
-                          href="https://www.linkedin.com/in/muhammed-ameen-t/"
-                          role="button"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                        <!-- Github -->
-                        <a
-                          data-mdb-ripple-init
-                          class="btn text-white btn-floating m-1"
-                          style="background-color: #333333;"
-                          href="https://github.com/Muhammed-Ameen-T"
-                          role="button"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                      </section>
-                      <!-- Section: Social media -->
-                    </div>
-                    <!-- Grid container -->
-                  </footer>
+    <footer class="bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998"
+            href="https://www.facebook.com/muhammed.ameen.thevangal/"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
 
+          <!-- Twitter -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee"
+            href="https://x.com/muhammed_ameent"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/1e400fa6af.js" crossorigin="anonymous"></script>
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="https://instagram.com/ameen.t___"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca"
+            href="https://www.linkedin.com/in/muhammed-ameen-t/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/Muhammed-Ameen-T"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1e400fa6af.js"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        function myFunction() {
-            alert("Contact Form Submitted!");
-        }
+
+     
+
+
     </script>
-</body>
-</html>`
+  </body>
+</html>
+
